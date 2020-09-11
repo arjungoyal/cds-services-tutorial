@@ -104,7 +104,7 @@ app.post('/cds-services/patient-view-example', (request, response) => {
     cards: [
       {
         // Use the patient's First and Last name
-        summary: 'Now seeing: ' + patientResource.name[0].given[0] + ' ' + patientResource.name[0].family[0],
+        summary: 'Now seeing hello UW FHIR: ' + patientResource.name[0].given[0] + ' ' + patientResource.name[0].family[0],
         indicator: 'info',
         source: {
           label: 'CDS Service Tutorial',
